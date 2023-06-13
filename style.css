@@ -1,0 +1,65 @@
+/* /* 
+.box{
+    border:solid blue;
+    height:120px;
+    width:120px;
+}
+​
+.circle{
+    border:solid red;
+    border-radius:50%;
+    height:120px;
+    width:120px;
+}
+​
+.bio{
+    border:solid purple;
+    height:32vh;
+    width:100%;
+    padding:1em;
+    text-align:center;
+    color:green;
+}
+.jordan{
+    display:flex;
+}
+.j23{
+    width:50%;
+}
+.disappear{
+    display:none
+}
+} */
+
+.box{
+    border:solid orangered;
+    height:120px;
+    width:120px;
+} */
+
+.circle{
+    border:solid blueviolet;
+    border-radius:50%;
+    height:120px;
+    width:120px;
+}
+
+.bio{
+    border:solid mediumaquamarine;
+    height:32vh;
+    width:100%;
+    padding:1em;
+    text-align:center;
+    color:blue;
+}
+.WonderWoman{
+    display:flex;
+}
+.wondWoman{
+    border-radius: 60%;
+    width:50%;
+}
+.disappear{
+    display:none
+}
+
