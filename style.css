@@ -35,7 +35,7 @@
     border:solid orangered;
     height:120px;
     width:120px;
-} */
+} 
 
 .circle{
     border:solid blueviolet;
@@ -48,7 +48,7 @@
     border:solid mediumaquamarine;
     height:32vh;
     width:100%;
-    padding:1em;
+    /* padding:1em; */
     text-align:center;
     color:blue;
 }
@@ -56,10 +56,89 @@
     display:flex;
 }
 .wondWoman{
-    border-radius: 60%;
-    width:50%;
+    /* border-radius: 60%; */
+    /* width:50%; */
 }
 .disappear{
-    display:none
+    display:none;
 }
 
+.fight{
+    border: solid green;
+    height: 160px;
+    width: 100%;
+    background-image: url('https://media2.giphy.com/media/ej20RQRslMpAUKr0sI/giphy.gif?cid=6c09b9529mnp4obtu7yrxr2bzb8hgm2g162z37hneldoni8j&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+}
+
+.roadRunner{
+ border: solid pink;
+}
+
+.bestRunner{
+    border: solid yellow;
+  
+}
+
+/* .spin{
+    border: solid red;
+    height: 220px;
+    width: 220px;
+    display:block;
+    animation: spinBox 8s;
+} */
+
+@keyframes horse {
+    0% {
+      /* initialCommand */
+      transform: translateX(-450px);
+    }
+
+    50%{
+    }
+  
+    100% {
+      /* finalCommand */
+      transform: translateX(110vw);
+    }
+  }
+
+  .horseRun {
+    height: 140px;
+    animation-name: horse;
+    animation-duration: 5s;
+    animation-delay:0s;
+  }
+  
+  .running {
+    /* border: solid blue; */
+    height: 140px;
+    width:48%;
+    /* animation: jogging 3s ease-in-out 5s; */
+    /* animation-name: horse;
+    animation-duration: 3s; */
+  }
+
+  /* .horse{
+      height:90px;
+      width:90px;
+      border:solid green;
+      animation: makehorse 3s ease-out infinite
+  } */
+
+
+
+  @keyframes roadRunner {
+      0% {
+        /* initialCommand */
+        border:solid blue;
+      }
+    
+      50%{
+          border-radius:50%
+      }
+    
+      100% {
+        /* finalCommand */
+  border-radius:50%;
+      }
+    }

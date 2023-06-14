@@ -42,28 +42,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>     
+    <body>   
+
         <div class="box">
         </div>
-        <button class="switch" onclick="showBio()">Toggle Shape</button>
+        <button class="switch" onclick="boxToCircle()">Toggle Shape</button>
 <hr>
         <div class="wonderWoman">
             <h1>Hi My Name is Wonder Woman </h1>
             <img src="https://media.tenor.com/vVwJ17m5qxEAAAAC/wonder-woman.gif" alt="" class="wondWoman">
-            <div class="fight">
+            
+            <!-- <div class="fight">
+                <img src="https://media.tenor.com/vVwJ17m5qxEAAAAC/wonder-woman.gif" alt="" class="wondWoman">
                 <img src="https://media2.giphy.com/media/ej20RQRslMpAUKr0sI/giphy.gif?cid=6c09b9529mnp4obtu7yrxr2bzb8hgm2g162z37hneldoni8j&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="" class="fighting">
-            </div>
+            </div> -->
         </div>
 
         <button class="hidden" onclick="hideImage()">Click Me</button>
-
+        <button class="clickhere" onclick="newImage()" >Change Image</button>
        
       
 <hr>
 
-        <div class="Roadrunner"></div>
-        <h1> Road Runner!</h1>
-        <img src="https://media1.giphy.com/media/yhRhIgnJIRD0I/giphy.gif" alt="" class="bestRunner">
+        <div class="roadRunner">
+            <h1> Road Runner!</h1>
+            <img src="https://media1.giphy.com/media/yhRhIgnJIRD0I/giphy.gif" alt="" class="bestRunner">
+        </div>
+    
+        <button onclick="beepBeep()" >RUN</button>
+
+ <hr>
+ 
+<h1 style="text-align:center;">KEYFRAMES</h1>
+
+<!-- <img src="https://i.pinimg.com/originals/9d/75/dd/9d75dd5036dc446703988b4551f8273f.gif" alt="" class="horseRun"> -->
+
+<div class="horse"></div>
+<div class="runningContainer">
+    <div class="running">
+        <img src="https://i.pinimg.com/originals/9d/75/dd/9d75dd5036dc446703988b4551f8273f.gif" alt="" class="horseRun">
+    </div>
+</div>
+
+<button onclick="beginRun()" >RUN NOW</button>
+
         
         <script src="script.js" async defer></script>
     </body>
